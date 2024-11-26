@@ -20,7 +20,7 @@ from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_ai21.chat_models import ChatAI21
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-API_KEY = 'Wma8L9fiyWGvEI48rP2QSPfOXNl8FBsc'
+API_KEY = 'API_KEY'
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
